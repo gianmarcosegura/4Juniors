@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialComponent } from './angular-material.components';
 import 'hammerjs';
 
-import { QuestionDetailComponent } from './question/question-detail-component';
+import { QuestionDetailComponent } from './question/question-detail.component';
 
 @NgModule({
   declarations: [

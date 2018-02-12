@@ -1,4 +1,44 @@
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <i md-list-icon class="{{question.icon}} icon"></i>
+    </div>
+    <mat-card-title>
+      <h2>{{question.title}}</h2>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <small>Gianmarco Segura - {{question.createdAt | amLocale:'es' | amTimeAgo}}</small>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{question.description}}
+    </p>
+  </mat-card-content>
+</mat-card>
+<div class="answers">
+  <h2>Respuestas</h2>
+  <ul class="answers-list">
+    <li>
+      <h5>
+        Paula Becerra
+        <small>hace unos segundos</small>
+      </h5>
+      <p class="description">
+        Yo tengo la respuesta!
+      </p>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+<!--
 <h2>{{question.title}}</h2>
 <p>{{question.description}}</p>
 <i class="{{question.icon}}"></i>
 <p>{{question.createdAt}}</p>
+-->

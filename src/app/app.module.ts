@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialComponent } from './angular-material.components';
 import 'hammerjs';
+import { MomentModule } from 'angular2-moment';
 
 import { QuestionDetailComponent } from './question/question-detail.component';
 
@@ -17,7 +18,8 @@ import { QuestionDetailComponent } from './question/question-detail.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AngularMaterialComponent
+    AngularMaterialComponent,
+    MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

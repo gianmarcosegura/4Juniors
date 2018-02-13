@@ -11,12 +11,14 @@ import { MomentModule } from 'angular2-moment';
 
 import { QuestionDetailComponent } from './question/question-detail.component';
 import { AnswerFormComponent } from './answer/answer-form.component';
+import { AuserScreenComponent } from './auser/auser-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuestionDetailComponent,
-    AnswerFormComponent
+    AnswerFormComponent,
+    AuserScreenComponent
   ],
   imports: [
     BrowserModule,

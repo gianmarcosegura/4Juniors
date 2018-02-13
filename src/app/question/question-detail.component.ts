@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Question } from './question.model';
 
 @Component({
-  selector: 'app-question-detail',
+  selector: 'app-question',
   templateUrl: './question-detail.component.html',
   styleUrls: ['./question-detail.component.css']
 })

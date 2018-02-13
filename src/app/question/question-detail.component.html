@@ -19,7 +19,7 @@
 </mat-card>
 <div class="answers">
   <h2>Respuestas</h2>
-  <ul class="answers-list">
+  <ul class="answers-list" *ngIf="question.answers.length > 0">
     <li>
       <h5>
         Paula Becerra
@@ -30,6 +30,8 @@
       </p>
     </li>
   </ul>
+  <p *ngIf="question.answers.length === 0">Sé el primero!!</p>
+  <app-answer-form class="answer-form"></app-answer-form>
 </div>
 
 

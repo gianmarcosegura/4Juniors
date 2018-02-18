@@ -14,6 +14,7 @@ import { AnswerFormComponent } from './answer/answer-form.component';
 import { AuserScreenComponent } from './auser/auser-screen.component';
 import { SignUpComponent } from './sign-up-user/upuser.component';
 import { QuestionListComponent } from './question/question-list.component';
+import { QuestionFormComponent } from './question/question-form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { QuestionListComponent } from './question/question-list.component';
     AnswerFormComponent,
     AuserScreenComponent,
     SignUpComponent,
-    QuestionListComponent
+    QuestionListComponent,
+    QuestionFormComponent
   ],
   imports: [
     BrowserModule,

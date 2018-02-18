@@ -7,7 +7,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialComponent } from './angular-material.components';
 import 'hammerjs';
+
 import { MomentModule } from 'angular2-moment';
+
+import { Routing } from './app.routing';
 
 import { QuestionDetailComponent } from './question/question-detail.component';
 import { AnswerFormComponent } from './answer/answer-form.component';
@@ -32,7 +35,8 @@ import { QuestionFormComponent } from './question/question-form.component';
     AngularMaterialComponent,
     MomentModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]

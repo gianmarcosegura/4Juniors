@@ -1,19 +1,6 @@
-  <!--<mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <span>{{title}}</span>
-      <span class="example-spacer"></span>
-      <mat-icon>account_circle</mat-icon>
-    </mat-toolbar-row>
-  </mat-toolbar>
-  <!<app-question></app-question>-->
-  <!--<app-auser></app-auser>-->
-  <!--<app-signup></app-signup>-->
-  <!--<app-question-list></app-question-list>-
-  <app-question-form></app-question-form>-->
-
   <mat-toolbar color="primary">
-    <a [routerLink]="['/']">{{title}}</a>
+    <a [routerLink]="['']">{{title}}</a>
     <span class="example-spacer"></span>
-    <a [routerLink]="['/signin']"><mat-icon >account_circle</mat-icon></a>
+    <a [routerLink]="['/signin']"><mat-icon>account_circle</mat-icon></a>
   </mat-toolbar>
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>

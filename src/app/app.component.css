@@ -6,3 +6,11 @@ a {
   text-decoration: none;
   color: white;
 }
+
+[ng-reflect-router-link] {
+  cursor: pointer;
+}
+
+[ng-reflect-router-link]:focus {
+  outline: 0!important;
+}

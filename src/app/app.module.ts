@@ -42,3 +42,5 @@ import { QuestionFormComponent } from './question/question-form.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+/*https://material.io/color/#!/?view.left=0&view.right=0&primary.color=B9F6CA&secondary.color=F8BBD0*/

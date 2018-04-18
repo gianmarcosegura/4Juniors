@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Question } from './question.model';
 
 const q = new Question(
-  'Pregunta sobre Java',
+  'Ejemplo de pregunta',
   'Cual es la diferencia entre Java y Javascript',
   new Date(),
   'none'
